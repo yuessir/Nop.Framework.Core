@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{A62A9704-E3BB-4BE5-9523-3AD4AF2E59F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{59A7E8DB-2665-49B8-BEC8-94B4B4A49003}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NopMimic.Core", "NopMimic.Core\NopMimic.Core.csproj", "{8247473F-BD09-455B-8008-A0B4F8B8F0E9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NopMimic.Data", "NopMimic.Data\NopMimic.Data.csproj", "{F35EABF4-F088-48E0-8E46-1F5F1F04117A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NopMimic.Services", "NopMimic.Services\NopMimic.Services.csproj", "{4E7D3B80-B325-43E5-974C-57B40E4F6084}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NopMimic.Web.Framework", "NopMimic.Web.Framework\NopMimic.Web.Framework.csproj", "{05BEED9B-04F1-4599-BED0-E38F538E16C0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NopMimic.Web", "NopMimic.Web\NopMimic.Web.csproj", "{928BE5E4-243A-474C-A287-32F9489B589C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8247473F-BD09-455B-8008-A0B4F8B8F0E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8247473F-BD09-455B-8008-A0B4F8B8F0E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8247473F-BD09-455B-8008-A0B4F8B8F0E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8247473F-BD09-455B-8008-A0B4F8B8F0E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F35EABF4-F088-48E0-8E46-1F5F1F04117A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F35EABF4-F088-48E0-8E46-1F5F1F04117A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F35EABF4-F088-48E0-8E46-1F5F1F04117A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F35EABF4-F088-48E0-8E46-1F5F1F04117A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E7D3B80-B325-43E5-974C-57B40E4F6084}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E7D3B80-B325-43E5-974C-57B40E4F6084}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E7D3B80-B325-43E5-974C-57B40E4F6084}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E7D3B80-B325-43E5-974C-57B40E4F6084}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05BEED9B-04F1-4599-BED0-E38F538E16C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05BEED9B-04F1-4599-BED0-E38F538E16C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05BEED9B-04F1-4599-BED0-E38F538E16C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05BEED9B-04F1-4599-BED0-E38F538E16C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{928BE5E4-243A-474C-A287-32F9489B589C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{928BE5E4-243A-474C-A287-32F9489B589C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{928BE5E4-243A-474C-A287-32F9489B589C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{928BE5E4-243A-474C-A287-32F9489B589C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8247473F-BD09-455B-8008-A0B4F8B8F0E9} = {A62A9704-E3BB-4BE5-9523-3AD4AF2E59F3}
+		{F35EABF4-F088-48E0-8E46-1F5F1F04117A} = {A62A9704-E3BB-4BE5-9523-3AD4AF2E59F3}
+		{4E7D3B80-B325-43E5-974C-57B40E4F6084} = {A62A9704-E3BB-4BE5-9523-3AD4AF2E59F3}
+		{05BEED9B-04F1-4599-BED0-E38F538E16C0} = {59A7E8DB-2665-49B8-BEC8-94B4B4A49003}
+		{928BE5E4-243A-474C-A287-32F9489B589C} = {59A7E8DB-2665-49B8-BEC8-94B4B4A49003}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EADDDB17-7DFF-4570-8AD2-812465FDA6A9}
+	EndGlobalSection
+EndGlobal
